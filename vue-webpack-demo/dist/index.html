@@ -1,63 +1,13 @@
-<head><script defer src="index.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'C:\Users\波波夫斯基\Desktop\新  建文件夹 (2)\Build-a-project-from-0-to-1\vue-webpack-demo\index.html  ' in 'C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-to  -1\vue-webpack-demo'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'C:\  Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-to-1\vue-we  bpack-demo\index.html' in 'C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Buil  d-a-project-from-0-to-1\vue-webpack-demo'
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\Compilation  .js:2022:28
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:817:13
-      at eval (eval at create (C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Bu  ild-a-project-from-0-to-1\vue-webpack-demo\node_modules\.pnpm\re  gistry.npmjs.org+tapable@2.2.1\node_modules\tapable\lib\HookCode  Factory.js:33:10), <anonymous>:10:1)
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:275:22
-      at eval (eval at create (C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Bu  ild-a-project-from-0-to-1\vue-webpack-demo\node_modules\.pnpm\re  gistry.npmjs.org+tapable@2.2.1\node_modules\tapable\lib\HookCode  Factory.js:33:10), <anonymous>:9:1)
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:448:22
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:118:11
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:689:25
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:893:8
-      at C:\Users\波波夫斯基\Desktop\新建文件夹 (2)\Build-a-project-from-0-t  o-1\vue-webpack-demo\node_modules\.pnpm\registry.npmjs.org+webpa  ck@5.88.2_webpack-cli@5.1.4\node_modules\webpack\lib\NormalModul  eFactory.js:1013:5
-  
-  - Compilation.js:2022 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/Compilation.js:2022:28
-  
-  - NormalModuleFactory.js:817 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:817:13
-  
-  
-  - NormalModuleFactory.js:275 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:275:22
-  
-  
-  - NormalModuleFactory.js:448 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:448:22
-  
-  - NormalModuleFactory.js:118 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:118:11
-  
-  - NormalModuleFactory.js:689 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:689:25
-  
-  - NormalModuleFactory.js:893 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:893:8
-  
-  - NormalModuleFactory.js:1013 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/NormalModuleFactory.js:1013:5
-  
-  - child-compiler.js:169 
-    [vue-webpack-demo]/[registry.npmjs.org+html-webpack-plugin@5.5    .3_webpack@5.88.2]/[html-webpack-plugin]/lib/child-compiler.js    :169:18
-  
-  
-  - Compiler.js:577 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/Compiler.js:577:11
-  
-  - Compiler.js:1200 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/Compiler.js:1200:17
-  
-  
-  
-  - Compiler.js:1196 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/Compiler.js:1196:33
-  
-  
-  - Compilation.js:3100 
-    [vue-webpack-demo]/[registry.npmjs.org+webpack@5.88.2_webpack-    cli@5.1.4]/[webpack]/lib/Compilation.js:3100:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>做有追求的码农</title>
+  <script defer src="index.js"></script></head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>
