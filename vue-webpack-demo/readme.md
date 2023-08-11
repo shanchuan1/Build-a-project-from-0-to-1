@@ -6,3 +6,5 @@ script命令
 
 
 process.env.NODE_ENV可以访问到设置的变量
+
+相关地址：https://juejin.cn/post/7257893268972388413#heading-0
